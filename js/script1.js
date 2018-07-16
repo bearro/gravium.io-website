@@ -48,6 +48,13 @@ btns[6].addEventListener('click', () => {
   zenscroll.to(sections[6]);
 });
 
+btns[7].addEventListener('click', () => {
+  zenscroll.to(sections[7]);
+});
+
+btns[8].addEventListener('click', () => {
+  zenscroll.to(sections[8]);
+});
 
 window.onscroll = function () {
   var nav = document.getElementById('header');

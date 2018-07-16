@@ -17,8 +17,10 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
+  <link rel="stylesheet" href="css/timeline.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <script>
     window.onload = function() {
@@ -40,11 +42,17 @@
     <nav class="header__nav">
       <ul>
         <li>
-          <a class="js-btn">Gravium</a>
+          <a class="js-btn focus">Gravium</a>
         </li>
         <li>
-          <a class="js-btn focus">One Click Miner</a>
+          <a class="js-btn">One Click Miner</a>
         </li>
+        <li>
+            <a class="js-btn">Roadmap</a>
+          </li>
+          <li>
+            <a class="js-btn">Whitepaper</a>
+          </li>
         <li>
           <a class="js-btn">Masternodes</a>
         </li>
@@ -139,6 +147,86 @@
     </article>
   </section>
 
+
+
+
+  <section class="roadmap js-section">
+      <article class="odd">
+          <h2 class="blocktitle">Roadmap</h2>
+
+          <div class="entriesTimeline">
+              <div class="entryTimeline">
+                <div class="titleTimeline">2018 Q2</div>
+                <div class="bodyTimeline">
+                  <ul  dir="rtl">
+                    <li>Website</li>
+                    <li>Social Media Accounts</li>
+                    <li>Gravium Core</li>
+                    <li>Gravium wallet-qt v.1.0.0</li>
+                    <li>One click Miner</li>
+                    <li>Initial Pool Listings</li>
+                    <li>Initial Exchange Listing</li>
+                    <li>Mining & Masternode & Price Tracking Platform Listings</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="entryTimeline">
+                <div class="titleTimeline">2018 Q3</div>
+                <div class="bodyTimeline">
+                    <ul>
+                        <li>Whitepaper 1.0</li>
+                        <li>3-step Masternode Installer</li>
+                        <li>Paper Wallet</li>
+                        <li>First Electrum Wallet for x16r</li>
+                        <li>Wallet UI 2.0</li>
+                        <li>WebMiner</li>
+                        <li>Second Exchange Listing</li>
+                        <li>Marketting campaign</li>
+                      </ul>
+                </div>
+              </div>
+              <div class="entryTimeline">
+                <div class="titleTimeline">2018 Q4</div>
+                <div class="bodyTimeline">
+                    <ul  dir="rtl">
+                        <li>Extensive Marketting campaign</li>
+                        <li>Mobile Wallets - Beta for Android & iOS</li>
+                        <li>Adopting Gravium Governance</li>
+                        <li>Multi-sig protection to pre-mine</li>
+                        <li>Mobile Wallets for Android & iOS</li>
+                        <li>Coinmarketcap listing</li>
+                        <li>Third & Fourth exchange listing</li>
+                        <li>Roadmap v2.0</li>
+                        <li>Whitepaper 2.0</li>
+                      </ul>  
+                </div>
+              </div>
+              <div class="entryTimeline">
+  
+                </div>
+      </article>
+    </section>
+  
+  
+    <section class="whitepaper js-section">
+      <article>
+        <h2 class="blocktitle">Whitepaper</h2>
+        <div class="block">
+            We have finalised the Gravium whitepaper and have are proud to release version 1.0. This outlines our initial phase for Gravium and to show our current trajectory.
+            This paper will be updated as we progress through our roadmap and achieve everything we have set out to do. 
+            I hope you all enjoy the read of where all of our (the community) hard work has achieved. 
+            <div class="wallets">
+                <a href="resources/Gravium_Whitepaper_1.0.pdf" target="_blank">
+                  <img src="img/pdf_black.png" alt="">Gravium Whitepaper 1.0</a>
+                  </div>
+        </div>
+      </article>
+    </section>
+
+
+
+
+
   <section class="masternodes js-section">
     <article class="odd">
       <h2 class="blocktitle">Masternodes</h2>
@@ -159,6 +247,7 @@
 
   <section class="wallet js-section">
     <article>
+        <h2 class="blocktitle">Download Wallet</h2>
       <h3 class="subtitle">Download the latest Gravium wallet</h3>
       <div class="wallets">
         <a href="https://github.com/Gravium/gravium/releases/download/v1.0.2/graviumcore-1.0.2-win64-setup.exe" target="_blank">
