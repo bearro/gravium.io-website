@@ -1,7 +1,34 @@
+var mySwiper = new Swiper ('.swiper-container', {
+  // Optional parameters
+  //autoHeight: true,
+  direction: 'horizontal',
+  loop: false,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  spaceBetween:10,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: true,
+  }
+})
+
+
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'assets/particles.json', function () {
   console.log('callback - particles.js config loaded');
 });
+
 
 
 var animation_logo = {
@@ -81,3 +108,5 @@ for (var i = 0; i < btns.length; i++) {
 
   });
 }
+
+
