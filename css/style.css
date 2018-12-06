@@ -581,3 +581,8 @@ footer {
     page-break-after: avoid;
   }
 }
+
+#particles-js {
+  height: 45vw !important;
+  z-index: 0;
+  }
